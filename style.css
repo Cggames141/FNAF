@@ -1,0 +1,538 @@
+.textmain {
+  margin-top: 11px;
+}
+.menu {
+  background-color: #333; 
+  position: fixed; 
+  width: 100%; 
+  height: 45px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+
+.menu ul li a {
+  top: 0;
+  text-decoration: none;
+  color: #fff; 
+  padding: 10px;
+  
+}
+
+.menu ul li a:hover {
+  background-color: rgb(46, 14, 136); 
+}
+
+
+.content {
+  padding-top: 50px; 
+}
+.menu ul li.search-box {
+  margin-left:10px; 
+  margin-right: 50px;
+  padding-right: 20px; 
+  size: 100px;
+}
+
+.menu ul li.search-box input[type="text"] {
+
+  border-radius: 1px;
+  border: 1px solid #301188;
+  width: 600px;
+  background-color: #424040; 
+  color: #1d1c1c; 
+  margin-top: 1px;
+
+}
+
+.content {
+  padding-top: 50px; 
+}
+
+.container {
+    width: 100%;
+    background-color: #1e1e1fb0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(46, 14, 136);
+}
+
+.imagem-flutuante {
+
+    transition: transform 0.5s;
+    border: 2px solid white;
+}
+
+.imagem-flutuante:hover {
+
+    transform: translate(0, -10px);
+}
+
+#titulo {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+img {
+    border: 2px solid rgb(46, 14, 136);
+    border-radius: 10px;
+}
+
+p {
+   color: white;
+}
+
+
+P {
+    border: black;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+.image-container figcaption {
+    position: absolute;
+    top: 90%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(15, 15, 15, 0.7); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image-fundo{
+    position: relative;
+    display: inline-block;
+}
+
+.image-fundo img {
+    display: block;
+    max-width: 100%;
+}
+
+.image-fundo figcaption {
+    position: absolute;
+    top: 88%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(17, 16, 16, 0.7); 
+    color: #fff;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.centralizado {
+    background-color: rgba(19, 7, 32, 0.521); 
+    color: #fff;
+    padding: 250px;
+    border-radius: 5px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+.titulo231 {
+  text-align: center;
+}
+
+.tamanhotitulo {
+  font-size: 40px;
+  text-shadow: -1px -1px 0 #8e25b8, 2px -1px 0 rgb(46, 14, 136), -1px 4px 0 #0b0a63, 1px 1px 0 #000;
+  font-family: 'Five Nights At Freddys', sans-serif;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  margin: 10px;
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.thumbnail img {
+  width: 400px;
+  height: auto;
+}
+
+.full-image {
+  display: none;
+  position: fixed;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.imagemcenter {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text{
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #8e25b8, 2px -1px 0 rgb(46, 14, 136), -1px 4px 0 #2f2ce4, 1px 1px 0 #000;
+  font-family: 'Five Nights At Freddys', sans-serif;
+
+}
+
+audio {
+  width: 400px;
+  height: 25px;
+  justify-content: center;
+  margin: 20px 0;
+  background-color: #fcf7f7;
+  padding: 10px;
+  border-radius: 20px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #333; /* Cor de fundo dos controles (para navegadores baseados em WebKit, como o Google Chrome) */
+  color: white; /* Cor do texto */
+}
+
+audio::-webkit-media-controls-play-button {
+  color: red; /* Cor do botão de reprodução */
+}
+
+#iframe-in-game {
+  border: solid rgb(46, 14, 136);
+  border-radius: 10px;  
+}
+
+.audigame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px ;
+}
+
+.imagemtri{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.jump {
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+ 
+}
+
+#audioCover {
+  cursor: pointer;
+}
+
+#audioPlayer {
+  display: none;
+}
+
+.gamecent {
+  padding-left: 31%;
+  width: auto;
+}
+.all {
+  display: flex;
+  perspective: 10px;
+  transform: perspective(300px) rotateX(20deg);
+  will-change: perspective;
+  perspective-origin: center center;
+  transition: all 1.3s ease-out;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+
+.all:hover {
+  perspective: 1000px;
+  transition: all 1.3s ease-in;
+  transform: perspective(10000px) rotateX(0deg);
+}
+.all:hover .text {
+  opacity: 1;
+}
+.all:hover > div {
+  opacity: 1;
+  transition-delay: 0s;
+}
+.all:hover .explainer {
+  opacity: 0;
+}
+
+.left, .center, .right, .lefter, .righter {
+  width: 155px;
+  height: 150px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, 0.4);
+  opacity: 0;
+  transition: all 0.3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(219, 107, 42, 0);
+  cursor: pointer;
+  background-blend-mode: color-burn;
+}
+.left:hover, .center:hover, .right:hover, .lefter:hover, .righter:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, 0.6);
+  background-color: #ccf;
+}
+
+.text {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease;
+  bottom: 0;
+  top: 125px;
+  left: 5px;
+  position: absolute;
+  will-change: transform;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(100, 100, 255, 0.6);
+}
+
+.lefter {
+  transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+ 
+}
+
+.left {
+  transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+  background-image: url(Imagens/app\ fnaf\ 222.png);
+}
+
+.center {
+  opacity: 1;
+  background-image: url(Imagens/app\ fnaf\ 33333.jpg);
+}
+
+.right {
+  transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+  background-image: url(Imagens/app\ fnaf\ 44444.jpg);
+}
+
+.righter {
+  transform: translateX(60px) translateZ(-50px) rotateY(10deg);
+  background-image: url(Imagens/app\ fnaf\ 555555.jfif);
+}
+
+.explainer {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.6s ease;
+  width: 100%;
+  height: 100%;
+  background-color: #303050;
+  background-image: url(Imagens/CRIANCA\ CHORONA.png);
+  border-radius: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+
+a {
+  text-decoration: none; /* Remove o sublinhado padrão do link */
+}
+
+a img {
+  width: 150px;
+  height: 146px;
+}
+
+.fundoinicio {
+     margin-left: 15%;
+}
+
+h5 {
+  font-size:  32px;
+  color: white;
+    text-shadow: -1px -1px 0 #8e25b8, 2px -1px 0 rgb(46, 14, 136), -1px 4px 0 #2f2ce4, 1px 1px 0 #000;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.youframe {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  border-radius: 5px;
+  margin-left: 27%;
+}
+
+.mimfoto {
+  margin-left: 400px;
+}
+
+h2 {
+  margin-left: 300px;
+  color: white;
+  text-shadow: -1px -1px 0 #8e25b8, 2px -1px 0 rgb(46, 14, 136), -1px 4px 0 #2f2ce4, 1px 1px 0 #000;
+}
+
+h1 {
+  color: white;
+  text-shadow: -1px -1px 0 #8e25b8, 2px -1px 0 rgb(46, 14, 136), -1px 4px 0 #2f2ce4, 1px 1px 0 #000;
+  max-width: 80%;
+  margin-left: 150px;
+  margin-top: 6px;
+}
+
+h3 {
+  color: white;
+  text-shadow: -1px -1px 0 #8e25b8, 2px -1px 0 rgb(46, 14, 136), -1px 4px 0 #2f2ce4, 1px 1px 0 #000;
+  max-width: 80%;
+  margin-left: 150px;
+  
+}
+
+/* Estilos padrão para telas grandes */
+body {
+  font-size: 16px;
+}
+
+/* Estilos para telas médias (até 768 pixels de largura) */
+@media only screen and (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  /* Adicione mais estilos conforme necessário */
+}
+
+/* Estilos para telas pequenas (até 480 pixels de largura) */
+@media only screen and (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+  /* Adicione mais estilos conforme necessário */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #42098b;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(118, 199, 242, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+  --color: #1877f2;
+}
+.twitter {
+  --color: #1da1f2;
+}
+.instagram {
+  --color: #e4405f;
+}
+
+.github {
+  --color: #333333;
+}
+.youtube {
+  --color: #cd201f;
+}
+
+.icon:hover,
+.icon:hover .tooltip,
+.icon:hover .tooltip::before {
+  background: var(--color);
+  color: white;
+}
+
+
